@@ -17,6 +17,8 @@ public class sum {
 			Statement st=connect.createStatement();
 			ResultSet set=st.executeQuery(query);
 			
+			
+			
 			 String Countrun="";
 		      while(set.next()){
 		      Countrun = set.getString(1);
